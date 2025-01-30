@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Yosep Dwi Kristanto"
+  },
+  "text": {
+    "more": "This network graph represents the co-occurrence of keywords extracted from CERME 14 papers and posters. Each node corresponds to a keyword, with its size reflecting its weighted degree—the total number of connections it has, weighted by co-occurrence frequency. Node colors represent modularity classes, grouping keywords into clusters based on their connections, revealing key research themes and interdisciplinary links within the mathematics education community.",
+    "intro": "A network graph visualizing the co-occurrence of keywords in CERME 14 papers and posters. Node size represents weighted degree, and node color indicates modularity class.",
+    "title": "Keyword Co-occurrence Network of CERME 14 Papers and Posters"
+  },
+  "legend": {
+    "edgeLabel": "Co-occurrence",
+    "colorLabel": "Modularity class",
+    "nodeLabel": "Keyword"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
